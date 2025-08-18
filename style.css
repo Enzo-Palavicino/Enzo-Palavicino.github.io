@@ -1,10 +1,8 @@
-/* Fuente global */
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(#1C5D99,#639FAB,#BBCDE5);
 }
 
-/* Header */
 header {
   background-color: #1C5D99;
   text-align: center;
@@ -13,7 +11,7 @@ header h1 {
   color: #FFFFFF;
   font-size: 2.5rem;
 }
-/* Botón personalizado (sobre Bootstrap) */
+
 .btn-primary {
   background-color: #4dabf7;
   border: none;
@@ -23,7 +21,6 @@ header h1 {
   background-color: #339af0;
 }
 
-/* Tabla */
 table {
   border-radius: 8px;
   overflow: hidden;

@@ -18,7 +18,7 @@
         <section>
             <div class="row align-items-center mb-4">
                 <div class="col-md-4 text-center">
-                    <img src="https://avatars.githubusercontent.com/u/112137634?v=4" alt="Profile Picture" class="img-fluid rounded-circle border border-3 border-light" style="max-width: 200px;">
+                    <img src="https://avatars.githubusercontent.com/u/121136680?v=4" alt="Profile Picture" class="img-fluid rounded-circle border border-3 border-light" style="max-width: 200px;">
                 </div>
                 <div class="col-md-8">
                     <h2 class="mb-3">About Me</h2>
@@ -33,6 +33,12 @@
                 <ul class="list-group">
                     <li class="list-group-item">
                         <strong>Sports: </strong>Basketball and Gym
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Hobbies: </strong>Cooking and play guitar
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Interests: </strong>Ai research, web Development and technology
                     </li>
                 </ul>
                 <h2 class="py-4">Info</h2>
@@ -78,12 +84,14 @@
         </section>
 
         <section class="mb-5">
-        <h2 class="mb-3">Grade my work</h2>
-
-        <div class="input-group mt-3">
-            <input type="text" id="textInput" class="form-control" placeholder="Give your feedback here...">
-            <button class="btn btn-primary" onclick="updateGrade()">Give Grade</button>
-        </div>
+            <h2 class="mb-3">Feedback</h2>
+            <div class="input-group mt-3">
+                <input type="text" id="textInput" class="form-control" placeholder="Give your feedback here...">
+                <button class="btn btn-primary" id="sendBtn">Send</button>
+            </div>
+            <div id="feedbackSection" class="alert alert-success mt-3" style="display:none;">
+                <strong>Thanks for your feedback:</strong> <span id="feedbackText"></span>
+            </div>
         </section>
     </main>
 

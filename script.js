@@ -1,11 +1,14 @@
+document.getElementById("sendBtn").addEventListener("click", function() {
+    const input = document.getElementById("textInput").value.trim();
+    const feedbackText = document.getElementById("feedbackText");
+    const feedbackSection = document.getElementById("feedbackSection");
 
-function updateGrade() {
-  const inputText = document.getElementById("textInput").value;
-  const summary = document.getElementById("personal-summary");
+    if (input === "") {
+        alert("Enter Valid Feedback.");
+        return;
+    }
 
-  if (inputText.trim() !== "") {
-    summary.textContent = inputText;
-  } else {
-    alert("Por favor escribe algo antes de actualizar.");
-  }
-}
+    feedbackText.textContent = input;
+    feedbackSection.style.display = "block";
+    document.getElementById("textInput").value = "";
+});
