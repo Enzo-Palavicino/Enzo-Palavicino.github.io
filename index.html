@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 01 - Enzo Palavicino</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+    <header class="text-center py-4">
+        <h1 class="fw-bold">Enzo Palavicino</h1>
+    </header>
+
+    <main class="container py-4">
+        <section>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-4 text-center">
+                    <img src="https://avatars.githubusercontent.com/u/112137634?v=4" alt="Profile Picture" class="img-fluid rounded-circle border border-3 border-light" style="max-width: 200px;">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-3">About Me</h2>
+                    <p id="personal-summary" class="lead">I am Enzo Palavicino, a third-year engineering student passionate about technology and innovation. I enjoy solving complex problems and continuously learning new skills to enhance my professional growth. In my free time, I like to explore new technologies, read about advancements in the engineering field, and participate in collaborative projects that allow me to apply my knowledge in practical ways.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="row mb-4">
+            <div class="col-md-6">
+                <h2 class="py-4">Interests & Hobbies</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <strong>Sports: </strong>Basketball and Gym
+                    </li>
+                </ul>
+                <h2 class="py-4">Info</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <strong>Year of enrollment: </strong>2023
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Mayor: </strong>Computer Science
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Minor: </strong>Marketing
+                    </li>
+                    <li class="list-group-item">
+                        <button class="btn btn-dark"><i class="fa-brands fa-github"></i><a href="https://github.com/Enzo-Palavicino" class="link-light link-underline-opacity-0"></i> Github Page</a></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2 class="py-4">My Skills</h2>
+                <div class="table-responsive">
+                    <table class="table bg-primary-subtle table-bordered text-center align-left">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Skill</th>
+                                <th>Level</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Python</td><td>Intermediate</td></tr>
+                            <tr><td>JavaScript</td><td>Basic</td></tr>
+                            <tr><td>HTML/CSS</td><td>Basic</td></tr>
+                            <tr><td>Git</td><td>Basic</td></tr>
+                            <tr><td>Excel</td><td>Intermediate</td></tr>
+                            <tr><td>SQL</td><td>Intermediate</td></tr>
+                            <tr><td>Ruby</td><td>Basic</td></tr>
+                            <tr><td>English</td><td>Advanced</td></tr>
+                            <tr><td>Spanish</td><td>Native</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+        <h2 class="mb-3">Grade my work</h2>
+
+        <div class="input-group mt-3">
+            <input type="text" id="textInput" class="form-control" placeholder="Give your feedback here...">
+            <button class="btn btn-primary" onclick="updateGrade()">Give Grade</button>
+        </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-3 mt-4">
+        <p class="mb-0">© 2025 Enzo Palavicino</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

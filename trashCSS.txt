@@ -1,0 +1,16 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.565), rgba(255, 166, 0, 0.582), rgba(255, 255, 0, 0.575), rgba(0, 128, 0, 0.569), rgba(0, 0, 255, 0.672), rgba(76, 0, 130, 0.624), rgba(238, 130, 238, 0.639));
+    background-size: 1400% 1400%;
+    animation: rainbow 60s linear infinite;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+/* Header */
+header h1 {
+  font-size: 2.2rem;
+}
