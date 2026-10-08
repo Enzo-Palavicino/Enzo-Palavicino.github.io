@@ -1,105 +1,293 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 01 - Enzo Palavicino</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131a">
+  <meta name="description" content="Computer Science Engineering student focused on software engineering and full-stack development, with experience in React, Node.js, Python, SQL and IoT systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Enzo Palavicino | Software Engineering Portfolio">
+  <meta property="og:description" content="Computer Science Engineering student building thoughtful full-stack software and IoT solutions.">
+  <meta property="og:url" content="https://enzo-palavicino.github.io/">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/121136680?v=4">
+  <meta property="og:image:alt" content="Portrait of Enzo Palavicino">
+  <meta name="twitter:card" content="summary">
+  <title>Enzo Palavicino | Software Engineering Portfolio</title>
+  <link rel="canonical" href="https://enzo-palavicino.github.io/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Enzo Palavicino",
+      "url": "https://enzo-palavicino.github.io/",
+      "image": "https://avatars.githubusercontent.com/u/121136680?v=4",
+      "jobTitle": "Computer Science Engineering Student",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Las Condes",
+        "addressRegion": "Santiago",
+        "addressCountry": "CL"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/enzopalavicino",
+        "https://github.com/Enzo-Palavicino"
+      ]
+    }
+  </script>
 </head>
-<body class="bg-dark text-light">
-    <header class="text-center py-4">
-        <h1 class="fw-bold">Enzo Palavicino</h1>
-    </header>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <main class="container py-4">
-        <section>
-            <div class="row align-items-center mb-4">
-                <div class="col-md-4 text-center">
-                    <img src="https://avatars.githubusercontent.com/u/121136680?v=4" alt="Profile Picture" class="img-fluid rounded-circle border border-3 border-light" style="max-width: 200px;">
+  <header class="site-header" data-header>
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Enzo Palavicino — back to top">EP<span class="brand-dot">.</span></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+      </nav>
+      <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" data-mobile-nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> Santiago, Chile</p>
+          <h1 id="hero-title">Enzo<br>Palavicino<span class="accent-dot">.</span></h1>
+          <p class="hero-role">Computer Science Engineering Student</p>
+          <p class="hero-summary">I build reliable, human-centered software across the stack — from polished interfaces to backend systems and connected devices.</p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-aside">
+          <div class="portrait-frame">
+            <img src="https://avatars.githubusercontent.com/u/121136680?v=4" alt="Portrait of Enzo Palavicino" width="460" height="460" fetchpriority="high">
+            <span class="portrait-label">Software engineering<br>&amp; full-stack development</span>
+          </div>
+          <div class="hero-index" aria-label="Selected focus areas">
+            <span>01 / Focus</span>
+            <ul>
+              <li>Software Engineering</li>
+              <li>Full-Stack Development</li>
+              <li>IoT &amp; Artificial Intelligence</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="hero-footer" aria-label="Core technologies and profiles">
+        <p>React <span>·</span> Node.js <span>·</span> Python <span>·</span> SQL</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/enzopalavicino" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/Enzo-Palavicino" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / About</p>
+        <h2 id="about-title">Engineering ideas into<br><em>useful products.</em></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead reveal">I'm a fourth-year Computer Science Engineering student at Universidad de los Andes, with hands-on experience building full-stack software for real operational needs.</p>
+        <div class="about-details reveal">
+          <p>My work sits at the intersection of thoughtful interfaces, dependable backend systems, and data. I'm especially interested in software engineering, full-stack development, AI, and IoT.</p>
+          <p>I work in both English and Spanish and enjoy collaborating across technical and multidisciplinary teams.</p>
+          <dl class="fact-list">
+            <div><dt>Based in</dt><dd>Las Condes, Santiago</dd></div>
+            <div><dt>Languages</dt><dd>Spanish &amp; English</dd></div>
+            <div><dt>Current year</dt><dd>4th year</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / Experience</p>
+        <h2 id="experience-title">Where theory meets<br><em>production.</em></h2>
+      </div>
+      <article class="experience-card reveal">
+        <div class="experience-meta">
+          <p class="experience-period">Jan — Mar 2026</p>
+        </div>
+        <div class="experience-body">
+          <div class="experience-title-row">
+            <div>
+              <h3>Liventus S.A.</h3>
+              <p>Engineering Intern · Innovation</p>
+            </div>
+            <span class="card-number">01</span>
+          </div>
+          <p class="experience-description">Contributed to an existing operational monitoring and management platform for controlled-atmosphere systems, delivering full-stack features and working iteratively with IT and Engineering &amp; Innovation teams.</p>
+          <ul class="bullet-list">
+            <li>Built with React, Tailwind CSS, Node.js, Express, and Microsoft SQL Server.</li>
+            <li>Implemented authentication and role-based access control, and extended relational data models.</li>
+            <li>Worked with Azure-associated data, IoT sensor information, Figma prototypes, Bizagi process models, and development documentation.</li>
+          </ul>
+          <div class="tag-row" aria-label="Technologies used at Liventus">
+            <span>React</span><span>Node.js</span><span>SQL Server</span><span>Azure</span><span>IoT</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / Selected work</p>
+        <h2 id="projects-title">Projects built to<br><em>solve real problems.</em></h2>
+      </div>
+      <div class="project-list">
+        <article class="project-card project-featured reveal">
+          <div class="project-number" aria-hidden="true">01</div>
+          <div class="project-copy">
+            <p class="project-type">Full-stack platform · API integration</p>
+            <h3>Academic Management &amp;<br>Canvas–GitHub Integration</h3>
+            <p>A web application for managing programming courses and projects, bringing repositories, delivery tracking, commits, groups, notifications, and evaluation support into one workflow.</p>
+            <ul class="project-tags" aria-label="Project technologies">
+              <li>React</li><li>Django</li><li>PostgreSQL</li><li>REST APIs</li><li>GitHub API</li><li>Canvas API</li>
+            </ul>
+          </div>
+          <div class="project-visual visual-platform" aria-hidden="true">
+            <div class="mock-window">
+              <div class="mock-bar"><i></i><i></i><i></i></div>
+              <div class="mock-content">
+                <div class="mock-sidebar"><b></b><span></span><span></span><span></span></div>
+                <div class="mock-main">
+                  <div class="mock-heading"></div>
+                  <div class="mock-stat-row"><i></i><i></i><i></i></div>
+                  <div class="mock-table"><span></span><span></span><span></span><span></span></div>
                 </div>
-                <div class="col-md-8">
-                    <h2 class="mb-3">About Me</h2>
-                    <p id="personal-summary" class="lead">I am Enzo Palavicino, a third-year engineering student passionate about technology and innovation. I enjoy solving complex problems and continuously learning new skills to enhance my professional growth. In my free time, I like to explore new technologies, read about advancements in the engineering field, and participate in collaborative projects that allow me to apply my knowledge in practical ways.</p>
-                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </article>
 
-        <section class="row mb-4">
-            <div class="col-md-6">
-                <h2 class="py-4">Interests & Hobbies</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <strong>Sports: </strong>Basketball and Gym
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Hobbies: </strong>Cooking and play guitar
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Interests: </strong>Ai research, web Development and technology
-                    </li>
-                </ul>
-                <h2 class="py-4">Info</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <strong>Year of enrollment: </strong>2023
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Mayor: </strong>Computer Science
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Minor: </strong>Marketing
-                    </li>
-                    <li class="list-group-item">
-                        <button class="btn btn-dark"><i class="fa-brands fa-github"></i><a href="https://github.com/Enzo-Palavicino" class="link-light link-underline-opacity-0"></i> Github Page</a></button>
-                    </li>
-                </ul>
+        <div class="project-pair">
+          <article class="project-card reveal">
+            <div class="project-number" aria-hidden="true">02</div>
+            <div class="project-copy">
+              <p class="project-type">Data modeling · SQL</p>
+              <h3>Air Operations<br>Database</h3>
+              <p>A PostgreSQL relational database designed to manage air operations data through structured models, tables, queries, and triggers.</p>
+              <ul class="project-tags" aria-label="Project technologies"><li>PostgreSQL</li><li>SQL</li><li>Relational modeling</li><li>Triggers</li></ul>
             </div>
-            <div class="col-md-6">
-                <h2 class="py-4">My Skills</h2>
-                <div class="table-responsive">
-                    <table class="table bg-primary-subtle table-bordered text-center align-left">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Skill</th>
-                                <th>Level</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>Python</td><td>Intermediate</td></tr>
-                            <tr><td>JavaScript</td><td>Basic</td></tr>
-                            <tr><td>HTML/CSS</td><td>Basic</td></tr>
-                            <tr><td>Git</td><td>Basic</td></tr>
-                            <tr><td>Excel</td><td>Intermediate</td></tr>
-                            <tr><td>SQL</td><td>Intermediate</td></tr>
-                            <tr><td>Ruby</td><td>Basic</td></tr>
-                            <tr><td>English</td><td>Advanced</td></tr>
-                            <tr><td>Spanish</td><td>Native</td></tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div class="schema-visual" aria-hidden="true">
+              <span class="schema-node node-a">FLIGHT</span>
+              <span class="schema-node node-b">AIRCRAFT</span>
+              <span class="schema-node node-c">ROUTE</span>
+              <i class="schema-line line-a"></i><i class="schema-line line-b"></i>
             </div>
-        </section>
+          </article>
 
-        <section class="mb-5">
-            <h2 class="mb-3">Feedback</h2>
-            <div class="input-group mt-3">
-                <input type="text" id="textInput" class="form-control" placeholder="Give your feedback here...">
-                <button class="btn btn-primary" id="sendBtn">Send</button>
+          <article class="project-card project-dark reveal">
+            <div class="project-number" aria-hidden="true">03</div>
+            <div class="project-copy">
+              <p class="project-type">Embedded systems · Robotics</p>
+              <h3>Smart Roomba<br>Arduino Project</h3>
+              <p>An autonomous vacuum prototype using proximity sensors, motor control, and embedded logic to navigate and detect obstacles.</p>
+              <ul class="project-tags" aria-label="Project technologies"><li>Arduino</li><li>Sensors</li><li>Embedded programming</li><li>Control logic</li></ul>
             </div>
-            <div id="feedbackSection" class="alert alert-success mt-3" style="display:none;">
-                <strong>Thanks for your feedback:</strong> <span id="feedbackText"></span>
+            <div class="roomba-visual" aria-hidden="true">
+              <div class="signal signal-one"></div><div class="signal signal-two"></div>
+              <div class="roomba"><i></i><b></b></div>
             </div>
-        </section>
-    </main>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <footer class="text-center py-3 mt-4">
-        <p class="mb-0">© 2025 Enzo Palavicino</p>
-    </footer>
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / Toolkit</p>
+        <h2 id="skills-title">Tools I use to turn<br><em>concepts into code.</em></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-group reveal">
+          <p class="skill-index">01</p><h3>Languages</h3>
+          <ul><li>Python</li><li>JavaScript</li><li>SQL</li><li>C</li><li>C++</li><li>HTML</li><li>CSS</li></ul>
+        </article>
+        <article class="skill-group reveal">
+          <p class="skill-index">02</p><h3>Frontend</h3>
+          <ul><li>React</li><li>Tailwind CSS</li><li>Responsive Design</li></ul>
+        </article>
+        <article class="skill-group reveal">
+          <p class="skill-index">03</p><h3>Backend</h3>
+          <ul><li>Node.js</li><li>Express</li><li>Django</li><li>REST APIs</li></ul>
+        </article>
+        <article class="skill-group reveal">
+          <p class="skill-index">04</p><h3>Data</h3>
+          <ul><li>PostgreSQL</li><li>Microsoft SQL Server</li><li>Relational Modeling</li></ul>
+        </article>
+        <article class="skill-group reveal">
+          <p class="skill-index">05</p><h3>Tools</h3>
+          <ul><li>Git</li><li>GitHub</li><li>Figma</li><li>Azure Data Studio</li><li>Bizagi</li></ul>
+        </article>
+      </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <section class="section education" id="education" aria-labelledby="education-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / Education</p>
+        <h2 id="education-title">Learning with<br><em>purpose.</em></h2>
+      </div>
+      <div class="education-card reveal">
+        <div class="education-monogram" aria-hidden="true">U<span>ANDES</span></div>
+        <div class="education-copy">
+          <p class="education-period">2023 — Present</p>
+          <h3>Universidad de los Andes</h3>
+          <p class="education-degree">Ingeniería Civil en Ciencias de la Computación</p>
+          <div class="education-details">
+            <p><span>Current</span> 4th year</p>
+            <p><span>Minor</span> Advertising &amp; Marketing</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">06 / Contact</p>
+        <h2 id="contact-title">Let's build something<br><em>worth using.</em></h2>
+        <p class="contact-copy">I'm always interested in thoughtful software, ambitious ideas, and opportunities to learn with strong teams.</p>
+        <div class="contact-links">
+          <a class="contact-link" href="https://www.linkedin.com/in/enzopalavicino" target="_blank" rel="noopener noreferrer">
+            <span>Connect on LinkedIn</span><span aria-hidden="true">↗</span>
+          </a>
+          <a class="contact-link" href="https://github.com/Enzo-Palavicino" target="_blank" rel="noopener noreferrer">
+            <span>Explore my GitHub</span><span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <p class="contact-location">Las Condes · Santiago · Chile</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span data-year>2026</span> Enzo Palavicino</p>
+    <p>Designed &amp; built with care.</p>
+    <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
